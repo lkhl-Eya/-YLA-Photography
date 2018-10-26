@@ -1,0 +1,115 @@
+     body{
+                          background-image: url('Home3.png');
+                          background-size: 100%;
+                          background-repeat: no-repeat;
+                          color: white;
+                          
+                          
+                    }
+               
+
+ #connecter   
+    {
+        width: 70%;
+     position: absolute;
+    top: 100px;
+    left: 15%;
+    font-family: 'Century Gothic';
+    }
+    a{
+        text-decoration: none;
+    }
+    textarea,input[type=time],select,input[type=url], input[type=text], input[type=email], input[type=password], input[type=tel],input[type=url], input[type=date]{
+  background-color:  snow;
+   display:block;
+   height: 40px;
+	padding-right:10px;
+    border :1px solid darkgoldenrod;;
+    border-width: 0 0 1px 0;
+	margin:20px 0px;
+	outline:none;
+	width:99%;
+     font-size: 15px;	
+     color: black;
+     
+}
+textarea{
+    height: 80px;
+}
+select{
+    width:  100%;
+    height: 60px;
+
+}
+input[type=file]{
+    position: relative;
+    left:30%;
+    display: inline;
+}
+
+#check{
+    position: relative;
+    left: 30%;
+}
+input[type=radio],input[type=checkbox]
+{
+    margin-left:  15%;
+}
+ /* ************************************************** */
+ input[type=button]
+ {
+     background-color: snow;
+       display: block;
+    border : none;
+    width: 64%;
+    height: 40px;
+       color: grey;
+     font-family:  'Comic Sans MS';   
+     font-size: 15px;
+     font-weight: bold;
+ }
+ input[type=submit], input[type=reset]
+{
+    background: snow;
+    border : none;
+    width: 30%;
+    height: 40px;
+    color: grey;
+     font-family:  'Comic Sans MS';   
+     font-size: 15px;
+     font-weight: bold;
+}
+ 
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover  {
+ background-color: black;
+ color: white;
+ border : none; 
+     transition: all ease-in 0.5s;
+ }
+input[type=submit]:active, input[type=reset]:active,input[type=button]:active {
+ background-color: darkgoldenrod;
+ box-shadow:2px 2px 2px goldenrod inset;
+ border : none;
+ color: whitesmoke;
+     transition: all ease-in 0.2s;
+}
+
+ /* *************************************************** */
+ input[type=text]:focus,input[type=url]:focus, textarea:focus , input[type=email]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=date]:focus {
+background-color:  black;
+   display:block;
+	padding-right:10px;
+	border:none;
+	margin:20px 0px;
+	outline:none;
+font-family: 'Century Gothic';
+     color: whitesmoke;
+     font-size: 15px;
+     transition: all ease-in 0.5s;
+ }
+
+
+   footer{
+       position: relative;
+       top: 97%;
+   }

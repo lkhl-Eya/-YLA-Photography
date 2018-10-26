@@ -1,0 +1,201 @@
+body{
+    background:black; 
+    margin:0px ;
+}
+/* ****************************** header ****************************** */
+header {
+    position: fixed;
+    top:-47px;
+    background:black;
+    height:50px;
+     width:100%;
+     opacity: 0.8;
+     z-index: 10;
+    
+}
+#logo{
+    position: fixed;
+    display: inline;
+    width: 8%;
+    height: 70px;
+    margin: 15px auto 0px 5px; 
+    display : inline  ;
+    background: transparent;
+    z-index: 100;
+}
+header:hover{
+    position: fixed;
+    top:0px;
+    transition: all ease-in 0.5s;
+}
+
+
+#list {
+     
+     position: absolute;
+     top: 0px;
+    right: 0px;
+    color: white;
+    margin: 0px;
+    display: inline;
+}
+#list>div
+{   display : inline  ; 
+    margin: 0px;
+    padding: 18px 5px;
+}
+
+
+header a{
+    font-style: 'Segoe UI';
+    position: relative;
+    top: 10px;
+    padding: 22px 15px 21px 0px;
+    margin: 0px;
+     border : 1px solid darkgoldenrod;
+    border-width: 0px 1px 0px 0px;
+    text-decoration: none;
+    color : whitesmoke;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+.Accueil
+{
+  border-width: 0px 1px;  
+    padding: 22px 15px 21px 15px;
+}
+/* ****************************** section corp ****************************** */
+#corp
+{
+    height: 400%;
+    width: 100% ;
+    padding : 0px;
+    background: black;
+}
+#corp>div{
+    height: 20%;
+}
+
+a>img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    
+    }
+   
+/* *************** Contact *************** */
+#contact
+{
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: darkgoldenrod;
+    background: whitesmoke;
+    font-family: 'Segoe UI';
+}
+
+textarea, input[type=text], input[type=email]{
+   display:block;
+   height: 40px;
+	padding-right:10px;
+	border:none;
+	border-bottom: solid 3px darkgoldenrod;
+	margin:20px 0px;
+	outline:none;
+	width:98%;
+    font-family: 'Century Gothic';
+ 
+}
+textarea{
+    height: 80px;
+}
+input:focus, textarea:focus, {
+ background-color: darkgoldenrod;
+ color: white;
+ font-style: 'Comic Sans MS';
+    font-family: 'Segoe UI';
+ 
+ }
+input[type=submit], input[type=reset]
+{
+    display: inline;
+    border : none;
+    width: 30%;
+    height: 20px;
+    color: darkgoldenrod;
+     font-style: 'Comic Sans MS';
+ 
+     
+}
+ 
+input[type=submit]:hover, input[type=reset]:hover  {
+ background-color: darkgoldenrod;
+ color: white;
+ border : none; 
+ }
+input[type=submit]:active, input[type=reset]:active {
+ background-color: darkgoldenrod;
+ box-shadow:2px 2px 2px goldenrod inset;
+ border : none;
+ color: whitesmoke;
+}
+
+
+/* ****************************** footer ****************************** */
+footer {
+    background:black;
+         width:100%;
+     opacity: 0.6;
+     text-align: right;
+}
+#footer-text
+{
+position: static;
+color: whitesmoke; 
+display:inline; 
+}
+/* ****************************************************** Page Galerie  ****************************************************** */
+#photos{
+    height: 150%;
+    position: relative;
+    top: 150px;
+    left: 10%;
+    width: 80%;
+    margin-bottom: 150px;
+}
+#photos>img::selection{
+    z-index: 1000;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+}
+#compteur{
+    position: relative;
+    top: 50px;
+    left: 45%;
+    height: 50px;
+    width: 40%;
+    background-color: black;
+    padding: 11px 7px 10px 0px;
+}
+#compteur>a{
+    margin: 0px 10px;
+    border : 1px solid darkgoldenrod;
+    border-width: 0px 1px 0px 1px;
+    text-decoration: none;
+    color : whitesmoke;
+}
+#compteur>a:hover{
+    color: darkgoldenrod;
+}
+
+#photos>img{
+    width: 10%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 0px dimgrey;
+    height: 100px;
+    margin: 10px;
+}
